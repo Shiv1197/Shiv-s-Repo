@@ -1,0 +1,123 @@
+body {background-color:#131921}
+body {
+    background-color: #131921;
+}
+
+.navbar {
+    display: flex;               /* Put items in one horizontal row */
+    align-items: center;         /* Aligns everything vertically */
+    padding: 0.1px;               /* Space around content */
+}
+
+.logo {
+    width: 140px;
+    margin-right: 60px;          /* Space between logo & search bar */
+}
+
+.search-select {
+  border: none;
+  padding: 8px;
+  height: 38px;
+}
+
+.search-bar {
+    display: flex;  
+    overflow: hidden;           /* Search bar + button also in 1 row */
+}
+
+.search-input {
+    width: 300px;     /* Change width */
+    height: 35px;     /* Change height */
+    font-size: 25px;  /* Text size inside the bar */
+    padding: 5px;     /* Space inside the bar */
+    border: none;
+}
+
+.search-box button {
+    padding: 0px 15px;
+    margin-left: px;
+    cursor: pointer;
+    border: none;
+}
+
+.sign-in-btn {
+  background: none;     /* remove background */
+  border: none;         /* remove border */
+  color: white;         /* text color */
+  padding: 0;           /* remove button spacing */
+  cursor: pointer;      /* show hand icon on hover */
+  font-size: 12px;      /* optional: adjust size */
+  margin-left: 35px;
+}
+
+.cart-btn {
+  background: none;     /* remove background */
+  border: none;         /* remove border */
+  color: white;         /* text color */
+  padding: 0;           /* remove button spacing */
+  cursor: pointer;      /* show hand icon on hover */
+  font-size: 12px;      /* optional: adjust size */
+  margin-left: 35px;
+}
+
+.returns-order-btn {
+  background: none;     /* remove background */
+  border: none;         /* remove border */
+  color: white;         /* text color */
+  padding: 0;           /* remove button spacing */
+  cursor: pointer;      /* show hand icon on hover */
+  font-size: 12px;      /* optional: adjust size */
+  margin-left: 35px;
+}
+
+.item-select {
+  border: none;
+  padding: 9px;
+  height: 38px;
+}
+
+.filter-bar {
+  display: flex;
+  border: 1px solid gray;   /* Only ONE border */
+  border-radius: 6px;
+  overflow: hidden;         /* Makes corners smooth */
+}
+
+.filter-bar select {
+  padding: 10px;
+  border: none;             /* Remove each select border */
+  outline: none;            /* Remove focus border */
+  background-color: white;
+  width: 370px
+}
+
+.main-table {
+      border-collapse: collapse;
+      margin: 30px auto;
+      width: 90%;
+      table-layout: fixed;
+      padding: 8px;
+    }
+
+    .main-table td {
+      vertical-align: top;
+      text-align: center;
+      width: 50%;
+      padding: 8px;
+    }
+
+  
+    .sub-table {
+      border: 2px solid white;
+      border-collapse: collapse;
+      width: 100%;
+      height: 100%;
+    }
+
+    .sub-table th {
+      border: 2px solid white;
+      padding: 8px;
+      text-align: center;
+      width: 50%;
+    }
+
