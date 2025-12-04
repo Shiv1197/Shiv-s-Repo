@@ -1,0 +1,33 @@
+.body{
+    justify-content: center;
+    display: flex;
+}
+.container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+    border: 2px solid black; 
+    margin: 100px;
+    border-width: 3px;
+}
+.class{
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 20px;
+    width: 200px;
+}
+.avtar{
+    border-radius: 50%;
+    background-color: #007bff;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0 auto 15px auto;
+    color: white;
+}
